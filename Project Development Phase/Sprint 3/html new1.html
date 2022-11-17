@@ -1,0 +1,110 @@
+<html>
+<body>
+    <p>Car Resale Value Prediction</p>
+    <form action = "/login" method= "POST">
+    
+    <label for = "abtest">Choose abtest</label>
+    <select name ="ab">
+    <option Value = "0">Control</option>
+    <option Value = "1">Test</option>
+    </select>
+    <br>
+    
+    <label for = "vehicle">Choose Vehicle Type</label>
+    <select name ="vehicle">
+    <option Value = "0">andere </option>
+    <option Value = "1">bus </option>
+    <option Value = "2">cabrio </option>
+    <option Value = "3">coupe</option>
+    <option Value = "4">kleinwagen</option>
+    <option Value = "5">kombi</option>
+    <option Value = "6">limousine</option>
+    <option Value = "7">suv</option>
+    </select>
+    
+    <p>Year Of Registeration</p>
+    <p><input type= "number" name = "year" /></p>
+    
+    <label for = "gear">Choose Gear Box</label>
+    <select name ="gear">
+    <option Value = "0">automatik </option>
+    <option Value = "1">manuell</option>
+    </select><br>
+    
+    <p>Number of PowerPS</p>
+    <p><input type= "number" name = "power" /></p>
+    
+    <p>Number of Kilometers</p>
+    <p><input type= "number" name = "kilometer" /></p>
+    
+    <p>Month Of Registration</p>
+    <p><input type= "number" name = "month" /></p>
+    
+    <label for = "fuel">Choose Fuel Type</label>
+    <select name ="fuel">
+    <option Value = "0">andere</option>
+    <option Value = "1">benzin</option>
+    <option Value = "2">cng</option>
+    <option Value = "3">diesel</option>
+    <option Value = "4">elektro</option>
+    <option Value = "5">hybrid</option>
+    <option Value = "6">lpg</option>
+    </select><br>
+    
+    
+    <label for = "brand">Choose the brand of the Car</label>
+    <select name ="brand">
+    <option Value = "0">alfa_romeo</option>
+    <option Value = "1">audi</option>
+    <option Value = "2">bmw</option>
+    <option Value = "3">chevrolet</option>
+    <option Value = "4">chrysler</option>
+    <option Value = "5">citroen</option>
+    <option Value = "6">dacia</option>
+    <option Value = "7">daewoo</option>
+    <option Value = "8">daihatsu</option>
+    <option Value = "9">fiat</option>
+    <option Value = "10">ford</option>
+    <option Value = "11">honda</option>
+    <option Value = "12">hyundai</option>
+    <option Value = "13">jaguar</option>
+    <option Value = "14">jeep</option>
+    <option Value = "15">kia</option>
+    <option Value = "16">lada</option>
+    <option Value = "17">lancia</option>
+    <option Value = "18">land_rover</option>
+    <option Value = "19">mazda</option>
+    <option Value = "20">mercedes_benz</option>
+    <option Value = "21">mini</option>
+    <option Value = "22">mitsubishi</option>
+    <option Value = "23">nissan</option>
+    <option Value = "24">opel</option>
+    <option Value = "25">peugeot</option>
+    <option Value = "26">porsche</option>
+    <option Value = "27">renault</option>
+    <option Value = "28">rover</option>
+    <option Value = "29">saab</option>
+    <option Value = "30">seat</option>
+    <option Value = "31">skoda</option>
+    <option Value = "32">smart</option>
+    <option Value = "33">sonstige_autos</option>
+    <option Value = "34">subaru</option>
+    <option Value = "35">suzuki</option>
+    <option Value = "36">toyota</option>
+    <option Value = "37">trabant</option>
+    <option Value = "38">volkswagen</option>
+    <option Value = "39">volvo</option>
+    </select><br>
+    
+    <label for = "damage">Are the Damages Repaired</label>
+    <select name ="damage">
+    <option Value = "0">Yes</option>
+    <option Value = "1">No</option>
+    </select>
+    
+    <p><input type="submit" value = "submit" /></p>
+    </form>
+    
+    <b>{{y}}</b>
+</body>
+</html>
